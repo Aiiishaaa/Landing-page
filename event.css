@@ -1,0 +1,84 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("22033.jpg");
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(182, 8, 138);
+    padding-top: 6px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px violet, -1em 0 .4em palevioletred;
+}
+a{
+    float: right;
+    margin-top:25px;
+    padding-right:20px; 
+}
+h3{
+    top: 0px;
+    margin-left: 400px;
+    font-family: Haettenschweiler ;
+    letter-spacing: 2px;
+    color:rgb(114, 114, 151);
+    font-weight: 500px;
+    float: left;
+    height: 100px;
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+}
+h3:hover{
+    color:rgb(136, 18, 93);
+}
+.Formulaire {
+    display:flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 50px;
+}
+textarea {
+    height: 100px ;
+}
+#Région {
+    font-style: italic;
+    color:rgb(170, 90, 172);
+}
+button {
+    background-color: rgba(54, 10, 212, 0.7) ;
+    margin-top: 10px;
+    font-size: 20px;
+}
+button:hover {
+background-color: rgb(148, 20, 148);
+}
+.formul{
+    background-color:rgba(44, 18, 104, 0.8) ;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+p{
+    padding-top: 20px;
+    margin-left: 350px;
+    color:rgb(114, 114, 151);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 85px;
+    padding-bottom: 10px;
+}
+p:hover{
+    color:rgb(136, 18, 93);
+}
+.image{
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    margin-left:600px;
+    height: 300px;
+    width: 400px;
+}
